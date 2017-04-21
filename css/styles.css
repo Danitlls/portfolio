@@ -16,7 +16,7 @@ h1{
   margin-top: 30px;
 }
 .container{
-  margin-top: 30px;
+  margin-top: 20px;
 }
 .projects{
   margin: 10px;
@@ -36,28 +36,23 @@ em{
 }
 
 #about{
-  padding: 20px ;
+  padding: 10px 20px 50px 20px;
   line-height: 20px;
   text-align: center;
 }
 
-#hobbies img{
-  padding: 0 0px;
-}
 #hobbies{
-  margin: 1px;
-}
+  margin: .5px;
+  /*padding: 1px;*/
 
+}
 
 .thumbnail img{
   height: 250px;
   padding: 1%;
 }
 
-.thumbnail:last-of-type{
-  align-content: center;
-  padding: 10px;
-}
+
 
 .thumbnail:last-of-type h3{
   margin-top: 5px;
@@ -76,4 +71,31 @@ ol li{
 .foot{
   text-align: center;
   padding: 10px;
+}
+
+@media all and (max-width: 990px) and (min-width: 640px ){
+  body{
+    background-color: lightgrey;
+    font-size: 150%;
+  }
+  .col-md-3{
+    width: 45%;
+    float:left;
+    margin:2.5%;
+    text-align: center;
+  }
+  ul{
+    margin: 0;
+    padding: 0;
+  }
+  .col-md-6{
+    width: 100%;
+  }
+  #hobbies .thumbnail:last-of-type {
+    padding-bottom: 100px;
+  }
+  ol li{
+    min-width: 100px;
+    margin-left: 10px;
+  }
 }
