@@ -1,15 +1,14 @@
 h1{
   font-family: 'Annie Use Your Telescope', cursive;
-  font-size: 57px;
+  font-size: 52px;
   font-weight: bolder;
   padding-left: 10px;
   color: #3f3b44;
 }
 
-h2, h3 , #nave{
+h2, h3, #nave{
     font-family: 'Shadows Into Light', cursive;
-    font-size: 200%;
-
+    font-size: 180%;
 }
 
 #nave{
@@ -24,6 +23,7 @@ h2, h3 , #nave{
 .container{
   margin-top: 20px;
 }
+
 .projects{
   margin: 10px;
   float: left;
@@ -96,23 +96,28 @@ ol li{
 }
 
 @media all and (max-width: 990px) and (min-width: 660px ){
+
   body{
     background-color: #efeded;
     font-size: 150%;
   }
+
   h1{
     text-align: center;
   }
+
   .col-md-3{
     width: 45%;
     float:left;
     margin:2.5%;
     text-align: center;
   }
+
   ul{
     margin: 0;
     padding: 0;
   }
+
   .col-md-6{
     width: 100%;
   }
@@ -125,6 +130,7 @@ ol li{
   #hobbies .thumbnail:last-of-type {
     padding-bottom: 100px;
   }
+
   ol li{
     min-width: 100px;
     margin-left: 10px;
@@ -132,13 +138,16 @@ ol li{
 }
 
 @media all and (max-width: 660px) and (min-width: 350px ){
+
   body{
     background-color:  #efeded;
     font-size: 130%;
   }
+
   h1{
     text-align: center;
   }
+
   h2{
     text-align: center;
   }
@@ -157,6 +166,7 @@ ol li{
   #hobbies .thumbnail:last-of-type {
     padding-bottom: 100px;
   }
+
   ol li{
     min-width: 100px;
     margin-left: 10px;
