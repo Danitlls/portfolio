@@ -1,0 +1,17 @@
+img{
+  max-height: 400px;
+  /*position: absolute;
+  clip: rect(0px,2000px,300px,0px);*/
+}
+
+body{
+  max-width: 2500px;
+}
+/*body{
+  margin-top: 20%;
+}*/
+
+.projects{
+  margin: 10px;
+
+}
