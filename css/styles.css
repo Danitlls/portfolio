@@ -1,10 +1,3 @@
-img{
-  width: 100%;
-  max-height: 250px;
-  /*position: absolute;
-  clip: rect(0px,2000px,300px,0px);*/
-}
-
 body{
   max-width: 2500px;
 }
@@ -12,9 +5,16 @@ body{
 h1{
   padding: 0 2%;
 }
+
 #nave{
   margin-top: 30px;
 }
+
+.lake{
+  width: 100%;
+  max-height: 250px;
+}
+
 .container{
   margin-top: 20px;
 }
@@ -22,15 +22,27 @@ h1{
   margin: 10px;
   float: left;
 }
+
+a:hover{
+  text-decoration: none;
+  text-shadow: 2px  2px white;
+}
+
+div.panel > h3{
+  text-align: center;
+}
+
 ul{
   list-style: none;
 }
+
 span{
   font-size: 16px;
   font-weight: bold;
   color: #9e96b7;
   padding-right: 5px;
 }
+
 em{
   padding-right: 5px;
 }
@@ -43,16 +55,12 @@ em{
 
 #hobbies{
   margin: .5px;
-  /*padding: 1px;*/
-
 }
 
 .thumbnail img{
-  height: 250px;
+  height: 280px;
   padding: 1%;
 }
-
-
 
 .thumbnail:last-of-type h3{
   margin-top: 5px;
@@ -64,7 +72,7 @@ ol{
 
 ol li{
   float:left;
-  min-width: 80px;
+  min-width: 120px;
   margin-left: 10px;
 }
 
@@ -73,10 +81,13 @@ ol li{
   padding: 10px;
 }
 
-@media all and (max-width: 990px) and (min-width: 640px ){
+@media all and (max-width: 990px) and (min-width: 660px ){
   body{
     background-color: lightgrey;
     font-size: 150%;
+  }
+  h1{
+    text-align: center;
   }
   .col-md-3{
     width: 45%;
@@ -91,6 +102,44 @@ ol li{
   .col-md-6{
     width: 100%;
   }
+
+  .thumbnail img{
+    width: 70%;
+    padding: 1%;
+  }
+
+  #hobbies .thumbnail:last-of-type {
+    padding-bottom: 100px;
+  }
+  ol li{
+    min-width: 100px;
+    margin-left: 10px;
+  }
+}
+
+@media all and (max-width: 660px) and (min-width: 350px ){
+  body{
+    background-color: lightgrey;
+    font-size: 150%;
+  }
+  h1{
+    text-align: center;
+  }
+  h2{
+    text-align: center;
+  }
+
+  ul{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  img{
+    min-width: 330px;
+    padding: 1%;
+  }
+
   #hobbies .thumbnail:last-of-type {
     padding-bottom: 100px;
   }
