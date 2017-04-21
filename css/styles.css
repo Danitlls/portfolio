@@ -22,7 +22,9 @@ h1{
   margin: 10px;
   float: left;
 }
-
+ul{
+  list-style: none;
+}
 span{
   font-size: 16px;
   font-weight: bold;
@@ -34,8 +36,9 @@ em{
 }
 
 #about{
-  padding: 20px 0;
-  float:left;
+  padding: 20px ;
+  line-height: 20px;
+  text-align: center;
 }
 
 #hobbies img{
