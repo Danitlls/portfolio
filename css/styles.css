@@ -1,5 +1,6 @@
 img{
-  max-height: 300px;
+  width: 100%;
+  max-height: 250px;
   /*position: absolute;
   clip: rect(0px,2000px,300px,0px);*/
 }
@@ -9,13 +10,27 @@ body{
 }
 
 h1{
-  padding: 0 15px;
+  padding: 0 2%;
 }
-
+#nave{
+  margin-top: 30px;
+}
+.container{
+  margin-top: 30px;
+}
 .projects{
   margin: 10px;
   float: left;
+}
 
+span{
+  font-size: 16px;
+  font-weight: bold;
+  color: #9e96b7;
+  padding-right: 5px;
+}
+em{
+  padding-right: 5px;
 }
 
 #about{
@@ -53,4 +68,9 @@ ol li{
   float:left;
   min-width: 80px;
   margin-left: 10px;
+}
+
+.foot{
+  text-align: center;
+  padding: 10px;
 }
