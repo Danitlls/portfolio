@@ -19,9 +19,17 @@ h1{
 }
 
 #about{
-  padding: 20px;
+  padding: 20px 0;
   float:left;
 }
+
+#hobbies img{
+  padding: 0 0px;
+}
+#hobbies{
+  margin: 1px;
+}
+
 
 .thumbnail img{
   height: 250px;
@@ -35,4 +43,14 @@ h1{
 
 .thumbnail:last-of-type h3{
   margin-top: 5px;
+}
+
+ol{
+  padding: 1%;
+}
+
+ol li{
+  float:left;
+  min-width: 80px;
+  margin-left: 10px;
 }
