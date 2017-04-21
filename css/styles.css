@@ -1,5 +1,5 @@
 img{
-  max-height: 400px;
+  max-height: 300px;
   /*position: absolute;
   clip: rect(0px,2000px,300px,0px);*/
 }
@@ -7,11 +7,32 @@ img{
 body{
   max-width: 2500px;
 }
-/*body{
-  margin-top: 20%;
-}*/
+
+h1{
+  padding: 0 15px;
+}
 
 .projects{
   margin: 10px;
+  float: left;
 
+}
+
+#about{
+  padding: 20px;
+  float:left;
+}
+
+.thumbnail img{
+  height: 250px;
+  padding: 1%;
+}
+
+.thumbnail:last-of-type{
+  align-content: center;
+  padding: 10px;
+}
+
+.thumbnail:last-of-type h3{
+  margin-top: 5px;
 }
