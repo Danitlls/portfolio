@@ -1,9 +1,15 @@
-body{
-  max-width: 2500px;
+h1{
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 57px;
+  font-weight: bolder;
+  padding-left: 10px;
+  color: #3f3b44;
 }
 
-h1{
-  padding: 0 2%;
+h2, h3 , #nave{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 200%;
+
 }
 
 #nave{
@@ -25,11 +31,19 @@ h1{
 
 a:hover{
   text-decoration: none;
-  text-shadow: 2px  2px white;
+}
+
+.panel{
+  border-color: #ced0d2;
+  border-radius: 0;
 }
 
 div.panel > h3{
   text-align: center;
+}
+
+.panel:hover{
+  box-shadow: 2px 2px 20px #858b94;
 }
 
 ul{
@@ -83,7 +97,7 @@ ol li{
 
 @media all and (max-width: 990px) and (min-width: 660px ){
   body{
-    background-color: lightgrey;
+    background-color: #efeded;
     font-size: 150%;
   }
   h1{
@@ -119,8 +133,8 @@ ol li{
 
 @media all and (max-width: 660px) and (min-width: 350px ){
   body{
-    background-color: lightgrey;
-    font-size: 150%;
+    background-color:  #efeded;
+    font-size: 130%;
   }
   h1{
     text-align: center;
