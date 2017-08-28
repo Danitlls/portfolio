@@ -24,6 +24,6 @@ _{Html, Css, Bootstrap.}_
 
 ### Github Pages link
 
-*{https://danitlls.github.io/portfolio/}*
+*{https://rawgit.com/danitlls/portfolio/master/index.html}*
 
 Copyright (c) 2016 **_{M. Daniela Trulls}_**
